@@ -1,0 +1,557 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Menu</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=BioRhyme&display=swap" rel="stylesheet">
+	<link href="MasagoStyle.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+
+		#appetizer {
+			background-image:url("images/saveforweb/2menu-saveforweb/please2.png");
+			background-repeat:no-repeat;
+			background-size:contain;
+			padding-bottom:171px;
+			padding-left:23%;
+		}
+		
+		#entree {
+			background-color:#9d918a;
+			background-image:url("images/saveforweb/2menu-saveforweb/entreeeeee.png");
+			background-repeat:no-repeat;
+			background-size:contain;
+			padding-left:23%;
+			padding-bottom:171px;
+			padding-top:95px;
+		}
+		
+		#dessert {
+			background-image:url("images/saveforweb/2menu-saveforweb/dihsert.png");
+			background-size:contain;
+			background-repeat:no-repeat;
+			padding-left:23%;
+			padding-top:95px;
+			padding-bottom:171px;
+		}
+		
+		h1 {
+			color:#493731;
+			font-size:30px;
+			font-family: 'Cabin', sans-serif;
+			text-transform:uppercase;
+			font-weight:100;
+			letter-spacing:0.3em;
+			padding-top:154px;
+			padding-left:23%;
+		}
+		
+		h2 {
+			display:block;
+			width:100%;
+			font-family: 'Cabin', sans-serif;
+			font-size:24px;
+			text-align:right;
+			text-decoration:underline;
+			margin-right:21px;
+			color:#493731;
+		}
+		
+		.foodname {
+			font-weight:bold;
+			letter-spacing:0.23em;
+		}
+		
+		.rightalign {
+			text-align:right;
+		}
+		
+		.priceone {
+			background-color:#9d918a;
+			color:#f2ece3;
+			display:inline;
+			margin-left:90%;
+			padding-left:1px;
+			padding-right:1px;
+		}
+		
+		.pricetwo {
+			background-color:#9d918a;
+			color:#f2ece3;
+			display:inline;
+			padding-left:1px;
+			padding-right:1px;
+		}
+		
+		.pricethree {
+			background-color:#c8bfb7;
+			display:inline;
+			margin-left:90%;
+			padding-left:1px;
+			padding-right:1px;
+		}
+		
+		.pricefour {
+			background-color:#c8bfb7;
+			display:inline;
+			padding-left:1px;
+			padding-right:1px;
+		}
+		
+		section div div p{
+			position:relative;
+			top:60px;
+			font-family: 'Cabin', sans-serif;
+			font-size:12px;
+			width:250px;
+			color:#493731;
+		}
+		
+		section div img {
+			width:250px;
+		}
+		
+		section {
+			display:flex;
+			flex-wrap:wrap;
+		}
+		
+		.one{
+			display:flex;
+			flex:1;
+		}
+		.two{
+			display:flex;
+			position:relative;
+			top:70px;
+		}
+		
+		
+			
+			
+			
+			@media only screen and (max-width:720px) {
+				#desktop{
+					display:none;
+				}
+				
+				.fa-bars{
+					display:block;
+				}
+				
+				#appetizer {
+					padding-left:91px;
+				}
+				
+				#entree {
+					padding-left:91px;
+				}
+				
+				#dessert{
+					padding-left:91px;
+				}
+				
+				h1 {
+					text-align:center;
+					padding-left:0;
+				}
+				
+				h2 {
+					text-align:center;
+					transform:rotate(90deg);
+					position:relative;
+					top:100px;
+					right:-300px;
+					z-index:2;
+				}
+				
+				section {flex-direction:column;}
+				
+				.two {position:relative; top:0;}
+				}
+			
+				.four {position:relative; top:0;}
+		
+		
+		
+		
+		
+		@media only screen and (max-width:420px) {
+			
+			header img{
+				display:block;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			
+			#appetizer{
+				padding-left:12%;
+				padding-right:12%;
+				padding-top:50px;
+				padding-bottom:50px;
+				background-image:none;
+			}
+			
+			#entree{
+				padding-left:12%;
+				padding-right:12%;
+				padding-top:50px;
+				padding-bottom:50px;
+				background-image:none;
+			}
+			
+			#dessert{
+				padding-left:12%;
+				padding-right:12%;
+				padding-top:50px;
+				padding-bottom:50px;
+				background-image:none;
+			}
+			
+			h1 {
+				text-align:center;
+			}
+			
+			h2 {
+				text-align:center;
+				margin-top:20px;
+				transform:rotate(0deg);
+				position:static;
+				right:0px;
+			}
+			
+			section div div p{
+				text-align:center;
+				display:block;
+				margin-left:auto;
+				margin-right:auto;
+				top:0px;
+			}
+			
+			.rightalign {
+				text-align:center;
+				
+			}
+			.foodname {
+				margin-top:20px;
+			}
+			.priceone {
+				margin-left:50%;
+			}
+			
+			.pricetwo{
+				margin-left:50%;
+			}
+			
+			.pricethree{
+				margin-left: 50%
+			}
+			
+			.pricefour{
+				margin-left:50%;
+			}
+			
+			section div img {
+				display:none;
+			}
+		}
+				
+	</style>
+</head>
+
+	
+	
+	
+	
+	
+<body>
+	<main>
+		<header>
+			<img src="images/saveforweb/Logo.png">
+		</header>
+		
+		<nav>
+			<!--DESKTOP-->
+			<ul id="desktop">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		
+		
+			<!--MOBILE-->
+		  	<ul id="mobile">
+			  <li><a href="#0"><i class="fas fa-times"></i></a></li>
+			  <li><a href="home.html">Home</a> </li>
+			  <li><a href="menu.html">Menu</a></li>
+			  <li><a href="contact.html">Contact</a></li>
+			</ul>
+		
+			<a href="#mobile"><i class="fas fa-bars"></i></a>
+			
+		</nav>
+	</main>
+		
+<h1>Menu</h1>
+	
+		<section id="appetizer">
+			<h2>Appetizer</h2>
+			
+				<section>
+					<div class="one">
+						<div>
+							<p class="foodname rightalign">KANI SALAD</p>
+							<p class="rightalign">カニ サラダ</p>
+							<p class="rightalign">Crab sticks and celery mixed with fresh mayonnaise dressing.</p>
+							<p class="priceone">$8</p>
+						</div>
+						<img src="images/saveforweb/2menu-saveforweb/appetizer/kanisalad.png" alt="Kani Salad">
+					</div>
+
+					<div class="two">
+						<img src="images/saveforweb/2menu-saveforweb/appetizer/tunadumpling.png" alt="Tuna Dumpling">
+						<div>
+							<p class="foodname">TUNA DUMPLING</p>
+							<p>マグロ団子</p>
+							<p>Filled with avocado and tuna, wrapped with soft raw tuna.</p>
+							<p class="pricetwo">$8</p>
+						</div>
+					</div>
+				</section>
+			
+			
+			
+			
+			
+			
+			
+				<section>
+					<div class="one">
+						<div>
+							<p class="foodname rightalign">SUMMER ROLL</p>
+							<p class="rightalign">生春巻き</p>
+							<p class="rightalign">Mango, avocado, shrimp and vermicelli wrapped in rice paper.</p>
+							<p class="priceone">$12</p>
+						</div>
+						<img src="images/saveforweb/2menu-saveforweb/appetizer/summerroll.png" alt="Summer Roll">
+					</div>
+
+					<div class="two">	
+						<img src="images/saveforweb/2menu-saveforweb/appetizer/beefnegimaki.png" alt="Beef Negimaki">
+						<div>
+							<p class="foodname">BEEF NEGIMAKI</p>
+							<p>ねぎ巻き</p>
+							<p>Seared beef and scallions with teriyaki sauce.</p>
+							<p class="pricetwo">$9</p>
+						</div>
+					</div>
+				</section>
+			
+			
+			
+			
+			
+			
+				<section>
+					<div class="one">
+						<div>
+							<p class="foodname rightalign">YELLOWTAIL CEVICHE</p>
+							<p class="rightalign">ぶりセビチェ</p>
+							<p class="rightalign">Marinated yellowtail fish garnished with various vegetables.</p>
+							<p class="priceone">$12</p>
+						</div>
+						<img src="images/saveforweb/2menu-saveforweb/appetizer/yellowtailcevivhe.png" alt="Yellowtail Ceviche">
+					</div>
+
+
+					<div class="two">
+						<img src="images/saveforweb/2menu-saveforweb/appetizer/dimsumsampler.png" alt="Dim Sum Sampler">
+						<div>
+							<p class="foodname">DIM SUM SAMPLER</p>
+							<p>点心サンプラー</p>
+							<p>Eight assorted dim sum: pork and vegetable dumplings; and pork and shrimp shumai.</p>
+							<p class="pricetwo">$13</p>
+						</div>	
+					</div>
+				</section>
+			
+			
+			
+			
+		</section>
+		
+		
+		<section id="entree">
+			<h2>Entree</h2>
+
+				<section>
+					<div class="one">	
+						<div>
+							<p class="foodname rightalign">HONEY BACK RIBS</p>
+							<p class="rightalign">ハニーリブ</p>
+							<p class="rightalign">Beef ribs bathed in honey tamarind sauce.</p>
+							<p class="pricethree">$13</p>
+						</div>
+						<img src="images/saveforweb/2menu-saveforweb/entree/honeybackribs.png" alt="Honey Back Ribs">
+					</div>
+
+					<div class="two">
+						<img src="images/saveforweb/2menu-saveforweb/entree/coldnoodles.png" alt="Cold Sesame Noodles">
+						<div>
+							<p class="foodname">COLD SESAME NOODLES</p>
+							<p>冷ごま麺</p>
+							<p>Cold buckwheat noodles with sesame sauce.</p>
+							<p class="pricefour">$9</p>
+						</div>
+					</div>
+				</section>
+					
+			
+			
+			
+			
+			
+			
+			
+			
+				<section>
+					<div class="one">
+						<div>
+							<p class="foodname rightalign">BLACK ANGEL ROLL</p>
+							<p class="rightalign">黒天使寿司</p>
+							<p class="rightalign">Shrimp tempura tapped with crab meat and black caviar served with strawberry sauce.</p>
+							<p class="pricethree">$15</p>
+						</div>
+							<img src="images/saveforweb/2menu-saveforweb/entree/blackangel.png" alt="Black Angel Roll">
+					</div>
+
+					<div class="two">
+						<img src="images/saveforweb/2menu-saveforweb/entree/chickensoba.png" alt="Chicken Soba">
+						<div>
+							<p class="foodname">CHICKEN SOBA</p>
+							<p>鶏そば</p>
+							<p>Buckwheat noodles with chicken and vegetables.</p>
+							<p class="pricefour">$8</p>
+						</div>
+					</div>
+				</section>
+					
+					
+					
+					
+					
+				<section>	
+					<div class="one">
+						<div>
+							<p class="foodname rightalign">SASHIMI</p>
+							<p class="rightalign">刺身</p>
+							<p class="rightalign">Eighteen pieces of assorted fresh sashimi. Served with soup and green salad and white rice.</p>
+							<p class="pricethree">$33</p>
+						</div>
+						<img src="images/saveforweb/2menu-saveforweb/entree/sashimi.png" alt="Sashimi">
+					</div>
+
+					<div class="two">
+						<img src="images/saveforweb/2menu-saveforweb/entree/crazyfriday.png" alt="Crazy Friday Roll">
+						<div>
+							<p class="foodname">CRAZY FRIDAY ROLL</p>
+							<p>レイジーフライデー寿司</p>
+							<p>Shrimp tempura and spicy lobster inside tapped with avocado and colorful fish eggs.</p>
+							<p class="pricefour">$15</p>
+						</div>
+					</div>
+				</section>
+			
+		</section>
+		
+		
+		<section id="dessert">
+			<h2>Dessert</h2>
+				
+			<section>
+				<div class="one">
+					<div>
+						<p class="foodname rightalign">BIG TIRAMISU</p>
+						<p class="rightalign">ビッグティラミス</p>
+						<p class="rightalign">Layers of espresso drenched sponge cake.</p>
+						<p class="priceone">$8</p>
+					</div>
+					<img src="images/saveforweb/2menu-saveforweb/dessert/tiramisu.png">
+				</div>
+			
+				<div class="two">
+					<img src="images/saveforweb/2menu-saveforweb/dessert/threechocolatemousse.png">
+					<div>
+						<p class="foodname">THREE CHOCOLATE MOUSSE</p>
+						<p>/三チョコレートムー</p>
+						<p>Dark chocolate mousse on a sponge base.</p>
+						<p class="pricetwo">$7</p>
+					</div>
+				</div>
+			</section>
+			
+			
+			<section>		
+				<div class="one">
+					<div>
+						<p class="foodname rightalign">BOMBA</p>
+						<p class="rightalign">爆弾</p>
+						<p class="rightalign">Classic vanilla and chocolate gelato separated by a cherry.</p>
+						<p class="priceone">$7</p>
+					</div>
+					<img src="images/saveforweb/2menu-saveforweb/dessert/bomba.png">
+				</div>
+				
+				<div class="two">
+					<img src="images/saveforweb/2menu-saveforweb/dessert/chocolatesouffle.png">
+					<div>
+						<p class="foodname">CHOCOLATE SOUFFLE</p>
+						<p>チョコレートスフレ</p>
+						<p>Moist chocolate cake with a heart of creamy rich chocolate.</p>
+						<p class="pricetwo">$7</p>
+					</div>
+				</div>
+			</section>
+			
+			
+			<section>		
+				<div class="one">
+					<div>
+						<p class="foodname rightalign">CAPPUCCINO TRUFFLE</p>
+						<p class="rightalign">カプチーノトリュ</p>
+						<p class="rightalign">Cappuccino gelato with a heart of espresso covered with coffee-flavored meringue sprinkles.</p>
+						<p class="priceone">$7</p>
+					</div>
+					<img src="images/saveforweb/2menu-saveforweb/dessert/cappuccino.png">
+				</div>
+				
+				<div class="two">
+					<img src="images/saveforweb/2menu-saveforweb/dessert/newyorkcheesecake.png">
+					<div>
+						<p class="foodname">NEW YORK CHEESE CAKE</p>
+						<p>/ニューヨークチーズケーキ</p>
+						<p>New York’s signature cheese cake with optional blueberry or strawberry sauce.</p>
+						<p class="pricetwo">$8</p>
+					</div>
+				</div>
+			</section>
+			
+			
+		</section>
+		
+	
+	
+		<footer>
+		<img src="images/saveforweb/for footer.png">
+		<p>&copy; 2019 Masago Neo Japanese Cuisine</p>
+		<p>All rights reserved</p>
+		<div>
+			<a href=""><i class="fab fa-instagram"></i></a>
+			<a href=""><i class="fab fa-facebook-f"></i></a>
+			<a href=""><i class="fab fa-twitter"></i></a>
+		</div>
+	</footer>
+
+</body>
+</html>

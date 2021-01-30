@@ -1,0 +1,428 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact Us</title>
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto+Condensed" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="style.css"/>
+	
+	<style type="text/css">
+    	 
+		 .bgimg {
+			margin-left:auto;
+			margin-right:auto;
+			max-width:100%;
+  			background-image:url(images/bg_contactdesktop.jpg);
+  			background-size:cover;
+    		background-repeat: no-repeat;
+  			height:1030px;
+		 }
+		 
+		 main{
+			 margin-top:160px
+		 }
+		 
+		 h1{
+			 font-family: 'Roboto Condensed', sans-serif;
+			 text-transform: uppercase;
+			 font-size:48px;
+			 text-align:center;
+			 font-weight:900;
+			 padding-top:130px; 
+			 margin-top:130px;
+		 }
+		 
+		
+		 p {
+			 font-family: 'Comfortaa', sans-serif;
+			 font-size: 16px;
+			 padding-bottom:11px;
+			 padding-right:18px;
+		 }
+		 
+		 .instruction{
+			 text-align: center;
+			 padding-top:20px;
+			 padding-bottom:58px;
+		 }
+		 
+		
+		form {
+			max-width:1015px;
+			min-height:622px;
+			border-radius:40px;
+			margin:0 auto;
+			background-color:#f0f0f0;
+			display:flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			padding-top:40px;
+			
+		 }
+		 
+		form p{
+			text-align:left;
+		}
+		
+		input {
+			width:328px;
+			height: 51px;
+			padding:0 20px;
+			font-size:16px;
+			font-family: 'Comfortaa', sans-serif;
+			display:block;
+			border-radius:10px;
+			border:1px solid #D2D2D2;
+			outline:none;
+		 }
+		 
+		 
+		 textarea{
+			 width:328px;
+			 height:180px;
+			 border:1px solid #D2D2D2;
+			 border-radius: 10px;
+			 margin-left:30px;
+			 font-family:'Comfortaa', sans-serif;
+			 font-size:16px;
+			 padding: 15px;
+			 
+		 }
+		 
+		 #submit{
+			 width:150px;
+			 background-color:#D2D2D2;
+			 font-size:24px;
+			 color:white;
+			 margin-left:30px;
+		}
+		
+		.copyright p{
+			line-height:10px;
+		}
+		 
+		.yourmessage{
+			padding-bottom:30px;
+			padding-left:30px;
+		}
+		
+		i.fas.fa-bars {
+			display:none;
+		}
+		
+		/*#tablet:target{
+			display:block;
+		}*/
+		 
+		@media only screen and (max-width:1236px){
+			nav ul li{
+			font-size:20px;
+			}
+		}
+		
+		@media only screen and (max-width:868px){
+			/*condense the nav*/
+			ul li{
+				display:inline-flex;
+				flex-wrap:wrap;
+				max-width:100px;
+				justify-content: center;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			
+			ul li img{
+				display:block;
+			}
+			
+			/*nav{
+				display:block;
+				background:url("images/logo2.jpg");
+			}*/
+			
+			form{
+				display:flex;
+				flex-wrap:wrap;
+				max-width:600px;
+				justify-content: center;
+				margin-left:auto;
+				margin-right:auto;
+				
+			}
+			
+			.yourmessage{
+				text-align:left;
+				margin-left:0px;
+				padding-left:0px;
+				position:relative;
+				left:-15px;
+				
+			}
+			
+			textarea{
+				margin-left:auto;
+				margin-right:auto;
+				position:relative;
+				left:-15px;
+			}
+			
+			#submit{
+				margin-left:0px;
+				padding-left:0px;
+				position:relative;
+				left:-15px;
+				text-align:center;
+				padding-right:0px;
+			}
+			.bgimg {
+				
+  				height:1380px;
+			}
+			
+			footer{
+				display:inline;
+				flex-wrap:nowrap;
+				
+			}
+			
+			footer ul li{
+				margin-left:50px;
+				display:inline-block;
+				flex-wrap:nowrap;
+				max-width:600px;
+				
+			}
+			
+			.rule2{
+				margin-left:50px;
+			}
+			
+			.logo1{
+				display:none;
+			}
+			
+			.logo2{
+				display:inline;
+			}
+			
+			footer img{
+			padding-left:10px;	
+			max-width:150px;
+			display:inline;
+			}
+			
+			.copyright{
+				top:0px;
+			}
+			
+			.navitem{
+				display:none;
+			}
+			
+			i.fas.fa-bars {
+				display:inline;
+				margin-left:0px;
+				color:black;
+				font-size:48px;
+				text-align:left;
+				position:relative;
+				left:-100px;
+			}
+			
+			h1{
+				font-size:48px;
+			}
+		}
+		
+		@media only screen and (max-width:480px){
+			
+			
+			input {
+				width:auto;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			
+			main p{
+				width:auto;
+				margin-left:auto;
+				margin-right:auto;
+				font-size:13px;
+				padding-left:10px;
+			}
+			
+			.yourmessage{
+				width:auto;
+				margin-left:auto;
+				margin-right:auto;
+				font-size:13px;
+				margin-left:10px;
+				padding-left:10px;
+			}
+			
+			textarea{
+				width:235px;
+				margin-left:20px;
+			}
+			
+			.navlogo1{
+				display:none;
+			}
+			
+			.navlogo2{
+				display:inline;
+			}
+			
+			nav ul li img{
+				display:inline;
+				max-width: 160px;
+				position:relative;
+				left:-15px;
+			}
+			
+			i.fas.fa-bars {
+				display:inline;
+				margin-left:0px;
+				color:black;
+				font-size:48px;
+				text-align:left;
+				position:relative;
+				left:-50px;
+				
+			}
+			
+			.instruction{
+				width:80%;
+				padding-right:0;
+			}
+			
+			h1{
+				font-size:36px;
+			}
+			
+			input{
+				margin-bottom:30px;
+			}
+			
+			.bgimg{
+				height:1520px;
+			}
+			
+			footer p{
+				font-size:12px;
+			}
+		} 
+		
+		
+		
+		
+	</style>
+	
+	
+</head>
+
+<body>
+	<header>
+		<nav>	
+			<ul id="desktop">
+				<li class="dropdown">  <i class="fas fa-bars"></i> </li>
+				<li class="navitem"> <a href="menu.html">Our Doughnuts</a></li>
+				<li class="navitem"> <a href="menu.html">Our Coffee</a></li>		
+				<li class="navlogo1"><a href="index.html"><img src="images/logo.png" alt="logo"></a></li>	
+				<li class="navlogo2"><a href="index.html"><img src="images/logo2.jpg" alt="logo"></a></li>	
+				<li class="navitem"><a href="index.html">Our Story</a></li>	
+				<li class="navitem"> <a href="contact.html">Contact Us</a></li>	
+			</ul>
+			
+			 <!-- <ul id="tablet">			
+				<li> <a href="menu.html">Our Doughnuts</a></li>
+				<li> <a href="menu.html">Our Coffee</a></li>	
+				<li><a href="index.html"><img src="images/logo.png" alt="logo"></a></li>	 
+				<li><a href="index.html">Our Story</a></li>	
+				<li><a href="contact.html">Contact Us</a></li>	 
+			</ul> 
+			
+			<ul id="mobile">			
+				<li> <a href="menu.html">Our Doughnuts</a></li>
+				<li> <a href="menu.html">Our Coffee</a></li>		
+				<li><a href="index.html"><img src="images/logo2.png" alt="logo"></a></li>	
+				<li><a href="index.html">Our Story</a></li>	
+				<li><a href="contact.html">Contact Us</a></li>	
+			</ul>    -->
+			
+
+		</nav>
+	</header>
+	<main>
+			
+		<section class="bgimg">		
+		<h1>Contact Us</h1>			
+			<hr class="rule">			
+			<p class="instruction">Send us a message and we'll get back to you as soon as possible.</p>
+			
+		<form action="contact.php" method="post">
+			
+		<div class="formtext">		
+		<p>Your Name</p>
+			<p><input type="text"></p>			
+		<p>Your Email</p>
+			<p> <input type="email"></p>			
+		<p>Your Phone Number</p>
+			<p> <input type="text"></p>			
+		<p>What are you getting in touch about?</p>
+			<p> <input type="text"></p>		
+		</div>		
+			
+			
+	<div formtext2>	
+		<p class="yourmessage">Your Message</p>
+		
+		<textarea cols="30" rows="25"> </textarea>
+		
+		<p> <input id="submit" type="submit" value="Send!"></p>	
+	</div>		
+				
+	</form>	
+	</section>		
+	</main>
+		
+	<footer>
+	
+		<section class="bgfooter">
+		<div class="logo1">	
+		<img src="images/logo.png" alt="logo">
+		</div>
+			
+		<div class="logo2">	
+		<img src="images/logo2.jpg" alt="logo">
+		</div>
+			
+		<div>
+		<hr class="rule2">
+		</div>
+			
+		<div class="footerinfo">
+			<div>
+				<ul>
+					<li>FAQ's</li>
+					<li>Order Online</li>
+				</ul>
+			</div>
+				<ul>
+					<li>Gift Cards</li>
+					<li>Try Our App</li>
+			</ul>	
+		</div>
+		
+		<div class="copyright">
+			<p>Copyright &copy; 2019 Doughnut Plant Hotel Chelsea.</p>
+			<p>All rights reserved.</p>
+		</div>
+	</section>
+	</footer>
+	
+</body>
+</html>

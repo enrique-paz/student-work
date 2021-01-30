@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color:#f2ece3;
+}
+		
+header {
+	background-image:url("images/saveforweb/1home-saveforweb/cook3 flip horizonta with filter.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:fixed;
+	height:90px;
+	width:100%;
+	z-index:10;
+}
+		
+header img {
+	padding:21px;
+}
+
+nav{
+	width:253px;
+	padding-top:52px;
+	padding-bottom:10px;
+	position:fixed;
+	left:21px;
+	bottom:21px;
+	z-index:11;
+}
+		
+nav ul li{
+	font-family: 'Cabin', sans-serif;
+	text-transform:uppercase;
+	font-size:16px;
+	letter-spacing:0.35em;
+	text-align:center;
+	background-color:#f2ece3;
+	width:253px;
+	padding-bottom:42px;
+	list-style-type:none;
+}
+
+nav ul li img{
+	position:fixed;
+}
+
+a {
+	text-decoration:none;
+	color:#493731;
+}
+
+.fa-bars{
+	font-size:30px;
+	padding:20px;
+	display:none;
+}
+		
+#desktop{
+	background-color:#f2ece3;
+	padding-top:50px;
+}
+		
+#mobile{
+	display:none;
+	position:fixed;
+	top:450px;
+	font-family: 'Cabin', sans-serif;
+	text-transform:uppercase;
+	font-size:16px;
+	letter-spacing:0.35em;
+	text-align:center;
+	background-color:#f2ece3;
+	padding-top:30px;
+	width:253px;
+	list-style-type:none;
+	box-shadow:-1px 0 30px rgba(0,0,0,0.2);
+}
+		
+#mobile:target{
+	display:block;
+}
+
+footer {
+	background-image:url("images/saveforweb/footerbackground.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+		
+footer img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:16px;
+	padding-bottom:16px;
+}
+		
+footer p {
+	z-index:15;
+	color:#f2ece3;
+	text-align:center;
+	font-family: 'Cabin', sans-serif;
+	font-size:12px;
+	text-transform:uppercase;
+	letter-spacing:0.33em;
+}
+		
+footer div {
+	text-align:center;
+	margin-top:6px;
+	padding-bottom:10px;
+}
+
+footer i {
+	font-size:30px;
+	color:#f2ece3;
+	padding:10px;
+}

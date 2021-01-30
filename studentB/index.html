@@ -1,0 +1,491 @@
+<!doctype html>
+<html><head>
+<meta charset="UTF-8">
+<title>Doughnut Plant</title>
+	
+	
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		 
+	 <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto+Condensed" rel="stylesheet">
+	
+	
+	 <style type="text/css">
+		 	 
+		 .bgourstory{
+			margin-left:auto;
+			margin-right:auto;
+			max-width:100%;
+  			background-image:url("images/bgourstory.jpg");
+  			background-size:cover;
+    		background-repeat: no-repeat;
+  			height:auto;
+			padding-bottom:50px;
+ 			/*background-position:0 0px;*/
+			margin-bottom:127px;
+		 }
+		 
+		 .ourstory1{
+			 width: 643px;
+			 margin-left:auto;
+			 margin-right:auto;
+			 margin-bottom:62px;
+		 }
+
+		 .ourstory2{
+			 max-width:1015px;
+			 /*min-width:226px;*/
+			 
+			 margin-left:auto;
+			 margin-right:auto;
+			 display:flex;
+			 justify-content: space-between;
+			 /*fix*/
+			
+			 padding-top:25px;
+			 padding-bottom:20px;
+			 /*padding-left:36px;*/
+			 /*padding-right:100px;*/
+			 
+			 background-color:#f0f0f0;
+			 border-radius:40px;
+			 flex-wrap: nowrap;
+			 /*add flex wrap and width for media queries?*/
+		 }
+		 
+		 .homepgdonuts{
+			margin-left:auto;
+			margin-right:auto;
+			max-width:100%;
+  			background-image:url("images/homepgdonuts.jpg");
+  			background-size:cover;
+    		background-repeat: no-repeat;
+  			height:581px;
+ 			background-position:0 20px;
+			z-index:0;
+		 }
+		 
+		 h1{
+			 font-family: 'Roboto Condensed', sans-serif;
+			 text-transform: uppercase;
+			 font-size:48px;
+			 text-align:center;
+			 font-weight:900;
+			 margin-top:126px;
+		 }
+		 
+		 .reviews{
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:78px;
+			width:1014px;
+			height:auto;
+			padding-bottom:50px;
+			background-color:#e1e1e1;
+			border-style:none;
+			border-radius: 40px;
+			margin-bottom:130px;
+		 }
+		 
+		 .title{
+			 font-family:'Roboto-Condensed', sans-serif;
+			 font-size:16px;
+			 font-weight:bold;
+			 text-transform:uppercase;
+			 padding-top:70px;
+			 /*padding-bottom:30px;*/ 
+		 }
+		 
+		 .review{
+			 font-size:32px;
+			 text-transform:uppercase;
+			 line-height: 36px;
+			 max-width:635px;
+			 margin-left:auto;
+			 margin-right:auto;
+			 text-align: center;
+		 }
+		 
+		 .bgstayconnected{
+			margin-left:auto;
+			margin-right:auto;
+			max-width:100%;
+  			background-image:url("images/bgstayconnected.jpg");
+  			background-size:cover;
+    		background-repeat: no-repeat;
+  			height:auto;
+			padding-bottom:50px;
+		 }
+		 
+		 .smimg{
+			 margin-top:30px;
+			 display:flex;
+			/*margin-left:auto;
+			 margin-right:auto;
+			 width:1179px;
+			 heigh:596px;
+			 border-radius:40px;
+			 background-color:white;*/
+			 justify-content: center;
+		 }
+		 
+		 	 
+		 i.fas.fa-bars {
+			display:none;
+		}
+		 
+		 .nobg2{
+			 display:none;
+		 }
+		 
+		@media only screen and (max-width:1236px){
+			nav ul li{
+			font-size:20px;
+			}
+		}
+		
+		@media only screen and (max-width:868px){
+			/*condense the nav*/
+			ul li{
+				display:inline-flex;
+				flex-wrap:wrap;
+				max-width:100px;
+				justify-content: center;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			
+			ul li img{
+				display:block;
+			}
+			
+			footer{
+				display:inline;
+				flex-wrap:nowrap;
+				
+			}
+			
+			footer ul li{
+				margin-left:50px;
+				display:inline-block;
+				flex-wrap:nowrap;
+				max-width:600px;
+				
+			}
+			
+			.rule2{
+				margin-left:50px;
+			}
+			
+			.logo1{
+				display:none;
+			}
+			
+			.logo2{
+				display:inline;
+			}
+			
+			footer img{
+			padding-left:10px;	
+			max-width:150px;
+			display:inline;
+			}
+			
+			.copyright{
+				top:0px;
+				font-size:12px;
+			}
+			
+			.navitem{
+				display:none;
+			}
+			
+			/*disappeared*/
+			i.fas.fa-bars {
+				display:inline;
+				margin-left:0px;
+				color:black;
+				font-size:48px;
+				text-align:left;
+				position:relative;
+				left:-100px;
+				
+			}
+			
+			nav{
+				
+			}
+			
+			.navitem{
+				 display:none;
+			 }
+			
+			nav ul li img{
+				display:block;
+				margin-left:auto;
+				margin-right:auto;
+				padding-right:70px;
+				/*position:relative;
+				left:-70px;*/
+			}
+			
+			/*-------*/
+			
+			
+			.ourstory1{
+				width:75%;
+				
+			}
+			.ourstory2{
+				flex-wrap:wrap;
+				padding-left:25px;
+			}
+			
+			h3{
+				font-size:23px;
+				
+			}
+			
+			main p{
+				font-size:14px;
+				line-height:18px;
+				padding-bottom:15px;
+			}
+			.desclockup2{
+				
+				height:100%;
+				padding-left:5px;
+				
+			}
+			.bgourstory{
+				height:100%;
+				padding-bottom:50px;
+			}
+			
+			.review{
+				height:100%;
+				width:90%;
+				font-size:18px;
+				padding-top:10px;
+				padding-bottom:10px;
+				line-height:24px;
+				height:auto;
+			}
+			
+			.reviews{
+				width:auto;
+				height:auto;
+				padding-top:30px;
+				padding-bottom:30px;
+			}
+			
+			.title{
+				padding-top:20px;
+				
+				height:auto;
+			}
+			
+			 h2{
+				 font-size:48px;
+			 }
+			 
+			 h1{
+				 font-size:48px;
+			 }
+			
+		 }
+		 
+		 @media only screen and (max-width:480px){
+			 
+			
+			input {
+			width:300px;
+			}
+			
+			textarea{
+				width:300px;
+				padding-left:20px;
+			}
+			
+			.navlogo1{
+				display:none;
+			}
+			
+			.navlogo2{
+				display:inline;
+			}
+			
+			nav ul li img{
+				display:inline;
+				max-width: 160px;
+				position:relative;
+				left:-15px;
+			}
+			
+			i.fas.fa-bars {
+				display:inline;
+				margin-left:0px;
+				color:black;
+				font-size:48px;
+				text-align:left;
+				position:relative;
+				left:-50px;
+				
+			}
+			 
+			 /*-----*/
+			 
+			 .review{
+				 padding-left:15px;
+			 }
+			 
+			 .ourstory1{
+				 padding-left:5px;
+			 }
+			 
+			 .ourstory2{
+				 padding-left:30px;
+			 }
+			 
+			 h2{
+				 font-size:35px;
+			 }
+			 
+			 h1{
+				 font-size:35px;
+			 }
+			 
+		 }
+		 
+		 
+		 
+	</style>
+	
+</head>
+
+<body>
+	
+	<header>
+		<nav>
+			<ul id="desktop">
+				<li class="dropdown">  <i class="fas fa-bars"></i> </li>
+				<li class="navitem"> <a href="menu.html">Our Doughnuts</a></li>
+				<li class="navitem"> <a href="menu.html">Our Coffee</a></li>		
+				<li class="navlogo1"><a href="index.html"><img src="images/logo.png" alt="logo"></a></li>	
+				<li class="navlogo2"><a href="index.html"><img src="images/logo2.jpg" alt="logo"></a></li>	
+				<li class="navitem"><a href="index.html">Our Story</a></li>	
+				<li class="navitem"> <a href="contact.html">Contact Us</a></li>	
+			</ul>	
+		</nav>
+	</header>
+
+	<main>
+		
+		<section class="herobanner">
+		</section>
+		
+
+		<section class="bgourstory">
+			
+			<div class="ourstory1">
+			<h2>Our Story</h2>
+			<hr class="rule">
+			<p >Doughnut Plant is an independent New York City based bakery that is considered the pioneer of the artisanal doughnut. They pride themselves on originality, using the highest quality all natural ingredients, and making everything in-house from scratch — all glazes, fillings, jams and toppings.</p>
+			</div>
+			
+		<div class="ourstory2">
+			<div class="desclockup2">
+				<h3>Created In</h3>
+				<p>Created in Mark Isreal’s Lower East Side apartment in 1994, we have been handcrafting original and innovative doughnuts built upon Mark’s grandfather’s recipe ever since.</p>	
+			</div>
+			<div class="desclockup2">
+				<h3>One-Man Band</h3>
+				<p>For over five years, Mark was essentially a one-man band, spending his nights mixing, rolling, cutting, frying and glazing before delivering his creations by bicycle to specialty shops around New York City.</p>	
+			</div>
+			<div class="desclockup2">
+				<h3>In 2000</h3>
+				<p>In 2000, Doughnut Plant opened its first storefront on Grand Street in the Lower East Side. The passion for originality pours out into every detail of our shops, too.</p>	
+			</div>	
+			</div>	
+		</section>
+		
+		
+		<section class="homepgdonuts">
+		</section>
+		
+		
+			<h1> Doughnut Plant</h1>
+			<hr class="rule">
+			<p>Original Deliciousness<br>Since 1994</p>
+		
+		
+		<section class="reviews">
+	
+				<!-- <p class="title">The New York Times<br><span class="review">"Doughnuts of the Gods"</span></p>
+				
+				<p class="title">New York<br><span class="review">"taste anything from doughnut plant once, and you're hooked"</span></p>
+				
+				<p class="title">Google Customer review<br><span class="review">"if doughnuts were a religion, this would be its cathedral"</span></p>*/ -->
+				
+				<p class="title">The New York Times</p>
+				<p class="review">"Doughnuts of the Gods"</p>
+				
+				<p class="title">New York </p>
+				<p class="review">"taste anything from doughnut plant once, and you're hooked"</p>
+				
+				<p class="title">Google Customer review </p> 
+				<p class="review">"if doughnuts were a religion, this would be its cathedral"</p>
+			
+		</section>
+		
+		<section class="bgstayconnected">
+			
+			<h2> stay connected</h2>
+			<hr class="rule">
+			<p>Follow Us @DOUGHNUT PLANT<br>#DOUGHNUTPLANT</p>
+			
+			<div class="smimg">
+			<img src="images/socialmedia.png" alt="socialmedia">
+			</div>
+		</section>
+		
+	</main>
+	
+	<footer>
+	<section class="bgfooter">
+		
+		<div class="logo1">	
+		<img src="images/logo.png" alt="logo">
+		</div>
+			
+		<div class="logo2">	
+		<img src="images/logo2.jpg" alt="logo">
+		</div>
+			
+		<div>
+		<hr class="rule2">
+		</div>
+		
+		<div class="footerinfo">
+			<ul>
+				<li>FAQ's</li>
+				<li>Order Online</li>
+				<li>Gift Cards</li>
+				<li>Try Our App</li>
+			</ul>	
+		</div>
+		
+		<div class="copyright">
+			<p>Copyright &copy; 2019 Doughnut Plant Hotel Chelsea.</p>
+			<p>All rights reserved.</p>
+		</div>
+			
+	</section>
+	</footer>
+	
+	
+	
+	
+</body>
+</html>

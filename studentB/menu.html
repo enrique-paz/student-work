@@ -1,0 +1,657 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Our Doughnuts</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		 
+	 <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto+Condensed" rel="stylesheet">
+	
+	 <style type="text/css">
+		 
+		 .greybg{
+			margin-left:auto;
+			margin-right:auto;
+			max-width:100%;
+  			background-image:url("images/bgourstory.jpg");
+  			background-size:cover;
+    		background-repeat: no-repeat;
+  			height:1020px;
+ 			/*background-position:0 0px;*/
+			/*margin-bottom:127px;*/
+		 }
+		 
+		 .heading{
+			 width: 646px;
+			 margin-left:auto;
+			 margin-right:auto;
+			 margin-bottom:40px;
+		 }
+		 
+		 .imgs{
+			 margin-right:auto;
+			 margin-left:auto;
+			 display:flex;
+			 justify-content: space-around;
+			 flexwrap:wrap;
+			 max-width:1100px;
+			 margin-bottom:40px;
+			 /*mix-blend-mode: multiply;*/
+		 } 
+		 
+		 .imgs2{
+			 margin-right:auto;
+			 margin-left:auto;
+			 display:flex;
+			 justify-content: space-around;
+			 flexwrap:wrap;
+			 max-width:1100px;
+			 margin-bottom:40px;
+			 mix-blend-mode: multiply;
+		 } /*maybe remove blending mode for last set of dougnuts?*/
+		 
+		.doughnutdesc1{
+			 max-width:1015px;
+			 min-height:234px;
+			 /*min-width:226px;*/
+			 
+			 margin-left:auto;
+			 margin-right:auto;
+			 display:flex;
+			 justify-content: space-around;
+			 /*fix*/
+			
+			 /*padding-top:25px;*/
+			 padding-bottom:15px;
+			 /*padding-left:36px;*/
+			 /*padding-right:100px;*/
+			 
+			 background-color:#f0f0f0;
+			 border-radius:40px;
+			 flex-wrap:nowrap;
+			 
+			 /*add flex wrap and width for media queries?*/
+		 }
+		 
+		 .doughnutdesc2{
+			 max-width:1015px;
+			 min-height:237px;
+			 /*min-width:226px;*/
+			 
+			 margin-left:auto;
+			 margin-right:auto;
+			 display:flex;
+			 justify-content: space-between;
+			 /*fix*/
+			
+			 /*padding-top:25px;*/
+			 padding-bottom:15px;
+			 /*padding-left:36px;*/
+			 /*padding-right:100px;*/
+			 
+			 background-color:#e1e1e1;
+			 border-radius:40px;
+			 flex-wrap: nowrap;
+			 
+			 /*add flex wrap and width for media queries?*/
+		 } 
+		 
+		 .greybg2{
+			display:none;
+			margin-left:auto;
+			margin-right:auto;
+			max-width:100%;
+  			background-image:url("images/bgourstory.jpg");
+  			background-size:cover;
+    		background-repeat: no-repeat;
+  			/*height:2060px;*/
+		 }
+		 
+		 .doughnutdesc3{
+			max-width:260px;
+			min-height:237px;
+			margin-left:auto;
+			margin-right:auto;
+			display:flex;
+			justify-content: space-between;
+			padding-bottom:0px;
+			/*background-color:#e1e1e1;
+			border-radius:40px;*/
+			flex-wrap: wrap;
+		 }
+		 
+		 i.fas.fa-bars {
+			display:none;
+		}
+		 
+		 .nobg2{
+			 display:none;
+		 }
+		 
+		@media only screen and (max-width:1236px){
+			nav ul li{
+			font-size:20px;
+			}
+		}
+		
+		@media only screen and (max-width:868px){
+			/*condense the nav*/
+			ul li{
+				display:inline-flex;
+				flex-wrap:wrap;
+				max-width:100px;
+				justify-content: center;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			
+			ul li img{
+				display:block;
+			}
+			
+			footer{
+				display:inline;
+				flex-wrap:nowrap;
+				
+			}
+			
+			footer ul li{
+				margin-left:50px;
+				display:inline-block;
+				flex-wrap:nowrap;
+				max-width:600px;
+				
+			}
+			
+			.rule2{
+				margin-left:50px;
+			}
+			
+			.logo1{
+				display:none;
+			}
+			
+			.logo2{
+				display:inline;
+			}
+			
+			footer img{
+			padding-left:10px;	
+			max-width:150px;
+			display:inline;
+			}
+			
+			.copyright{
+				top:0px;
+				font-size:12px;
+			}
+			
+			.navitem{
+				display:none;
+			}
+			
+			/*disappeared*/
+			i.fas.fa-bars {
+				display:inline;
+				margin-left:0px;
+				color:black;
+				font-size:48px;
+				text-align:left;
+				position:relative;
+				left:-100px;
+				
+			}
+			
+			nav{
+				
+			}
+			
+			 .imgs{
+				 display:flex;
+				 flex-wrap:wrap;
+				 justify-content: center; 
+			 }
+			 
+			 .greybg{
+				 height:1300px;
+			 }
+			 
+			 .navitem{
+				 display:none;
+			 }
+			
+			nav ul li img{
+				display:block;
+				margin-left:auto;
+				margin-right:auto;
+				padding-right:70px;
+				/*position:relative;
+				left:-70px;*/
+			}
+			
+			 main p{
+				 padding-top:0px;
+				 font-size:14px;
+			 }
+			
+			h2{
+				margin-top:0px;
+			}
+			
+			h3{
+				font-size:23px;
+			}
+			
+			.nobg{
+				padding-bottom:75px;
+			}
+			
+			.doughnutdesc1{
+				padding-left:0px;
+				padding-right:0px;
+			}
+			
+			.rule{
+				margin-bottom:20px;
+			}
+			
+			.doughnutdesc2{
+				padding-left:0px;
+				padding-right:0px;
+			}
+			
+			.heading{
+				width:90%;
+			}
+			
+			.greybg{
+				height:100%;
+				padding-bottom:75px;
+			}
+		
+			
+		 }
+		 
+		 @media only screen and (max-width:480px){
+			 
+			
+			input {
+			width:300px;
+			}
+			
+			textarea{
+				width:300px;
+				padding-left:20px;
+			}
+			
+			.navlogo1{
+				display:none;
+			}
+			
+			.navlogo2{
+				display:inline;
+			}
+			
+			nav ul li img{
+				display:inline;
+				max-width: 160px;
+				position:relative;
+				left:-15px;
+			}
+			
+			i.fas.fa-bars {
+				display:inline;
+				margin-left:0px;
+				color:black;
+				font-size:48px;
+				text-align:left;
+				position:relative;
+				left:-50px;
+				
+			}
+			 
+			 /*------*/
+			 
+			 .imgs{
+				 display:flex;
+				 flex-wrap:wrap;
+				 justify-content: center;
+				 padding-bottom:0px;
+			 }
+			 
+			  .imgs2{
+				 display:flex;
+				 flex-wrap:wrap;
+				 justify-content: center;
+				 position:relative;
+				 left:-15px;
+				  padding-bottom:0px;
+			 }
+			  
+			 
+			 main p{
+				 padding-top:0px;
+			 }
+			 
+			 
+			 .greybg{
+				 display:none;
+			 }
+			 
+			 .greybg2{
+				 display:block;
+			 }
+			 
+			 .nobg{
+				 display:none;
+			 }
+			 
+			 .nobg2{
+				 display:block;
+			 }
+			 
+			 .heading{
+				width:250px;
+			}
+			 .rule{
+				 margin-bottom:20px;
+			 }
+			 
+			 h2{
+				 line-height:50px;
+				 text-align:center;
+				 font-size:36px;
+				 margin-top:0px;
+			 }
+			 
+			 h3{
+				 text-align:center;
+			 }
+			 
+			 .doughnutdesc3{
+				text-align:center; 
+				/*max-width:100%;*/
+				display:block;
+				
+			 }
+		 }
+		 
+	</style>
+	
+</head>
+
+<body>
+	
+	<header>
+		<nav>
+			<ul id="desktop">
+				<li class="dropdown">  <i class="fas fa-bars"></i> </li>
+				<li class="navitem"> <a href="menu.html">Our Doughnuts</a></li>
+				<li class="navitem"> <a href="menu.html">Our Coffee</a></li>		
+				<li class="navlogo1"><a href="index.html"><img src="images/logo.png" alt="logo"></a></li>	
+				<li class="navlogo2"><a href="index.html"><img src="images/logo2.jpg" alt="logo"></a></li>	
+				<li class="navitem"><a href="index.html">Our Story</a></li>	
+				<li class="navitem"> <a href="contact.html">Contact Us</a></li>	
+			</ul>	
+		</nav>
+	</header>
+
+	<main>
+		
+		<section class="herobanner">
+		</section>
+	
+		<section class="greybg">
+			<div class="heading">
+			<h2>Seasonal</h2>
+			<hr class="rule">
+			<p >We'll be celebrating 25 years of deliciousness all year by bringing back a rotating menu of fan favorites and classic flavors we created since starting in Mark's Lower East Side kitchen in 1994.</p>
+			</div>
+			
+			<div class="imgs2">
+				<img src="images/manhattancream.png" alt="manhattancream">
+				<img src="images/brooklynblackout.png" 
+				alt="brooklynblackout">
+				<img src="images/chocolatehazelnut.png" alt="chocolatehazelnut">
+			</div>
+			
+		<div class="doughnutdesc1">
+			<div class="desclockup">
+				<h3>Manhattan Cream</h3>
+				<p>Dipped in Valrhona chocolate and filled with vanilla bean cream.</p>	
+			</div>
+			<div class="desclockup">
+				<h3>Brooklyn Blackout</h3>
+				<p>Rich chocolate cake doughnut dipped in Valrhona chocolate.</p>	
+			</div>	
+			<div class="desclockup">
+				<h3>Chocolate Hazelnut</h3>
+				<p>Hazelnut chocolate filling covered with a roasted hazelnut glaze.</p>		
+			</div>
+		</div>
+		</section>
+		
+		<section class="greybg2">
+			<div class="heading">
+			<h2>Seasonal</h2>
+			<hr class="rule">
+			<p >We'll be celebrating 25 years of deliciousness all year by bringing back a rotating menu of fan favorites and classic flavors we created since starting in Mark's Lower East Side kitchen in 1994.</p>
+			</div>
+			
+			<div>
+				<div class="imgs2">
+				<img src="images/manhattancream.png" alt="manhattancream">
+				</div>
+				<div class="doughnutdesc3">
+				<h3>Manhattan Cream</h3>
+				<p>Dipped in Valrhona chocolate and filled with vanilla bean cream.</p>	
+				</div>
+			</div>
+			
+			<div>
+				<div class="imgs2">
+				<img src="images/brooklynblackout.png" 
+				alt="brooklynblackout">
+				</div>
+				<div class="doughnutdesc3">
+				<h3>Brooklyn Blackout</h3>
+				<p>Rich chocolate cake doughnut dipped in Valrhona chocolate.</p>
+				</div>
+			</div>	
+				
+			<div>
+				<div class="imgs2">
+				<img src="images/chocolatehazelnut.png" alt="chocolatehazelnut">
+				</div>
+			<div class="doughnutdesc3">
+				<h3>Chocolate Hazelnut</h3>
+				<p>Hazelnut chocolate filling covered with a roasted hazelnut glaze.</p>		
+				</div>
+			</div>
+			
+		</section>
+		
+		
+		
+		<section class="nobg">
+			<div class="heading">
+			<h2>Yeast Doughnuts</h2>
+			<hr class="rule">
+			<p>Light, airy fluffy yeast-raised doughnuts. We were the first to mix fresh fruit and nuts in a doughnut glaze.</p>
+			</div>
+			
+			<div class="imgs">
+				<img src="images/cinnamonsugar.png" alt="cinnamonsugar">
+				<img src="images/coffeecake.png" 
+				alt="coffeecake">
+				<img src="images/strawberrycake.png" alt="strawberrycake">
+			</div>
+			
+		<div class="doughnutdesc2">
+			<div class="desclockup">
+				<h3>Cinnamon Sugar</h3>
+				<p>Tossed in organic sugar and cinnamon.</p>	
+			</div>
+			<div class="desclockup">
+				<h3>Coffee Cake</h3>
+				<p>Chock full of real coffee - in the dough, in the glaze, in the creamy mascarpone filling, and even in the crumbs on top.</p>	
+			</div>
+			<div class="desclockup">
+				<h3>Strawberry Cake</h3>
+				<p>Traditional strawberry cake and a cream cheese filling and glaze.</p>	
+			</div>	
+		</div>	
+		</section>
+		
+		<section class="nobg2">
+			<div class="heading">
+			<h2>Yeast Doughnuts</h2>
+			<hr class="rule">
+			<p>Light, airy fluffy yeast-raised doughnuts. We were the first to mix fresh fruit and nuts in a doughnut glaze.</p>
+			</div>
+			
+			<div>
+				<div class="imgs">
+				<img src="images/cinnamonsugar.png" alt="cinnamonsugar">
+				</div>
+				
+				<div class="doughnutdesc3">
+				<h3>Cinnamon Sugar</h3>
+				<p>Tossed in organic sugar and cinnamon.</p>	
+				</div>
+			</div>	
+			
+			<div>
+				<div class="imgs">
+				<img src="images/coffeecake.png" 
+				alt="coffeecake">
+				</div>
+				
+				<div class="doughnutdesc3">
+				<h3>Coffee Cake</h3>
+				<p>Chock full of real coffee - in the dough, in the glaze, in the creamy mascarpone filling, and even in the crumbs on top.</p>	
+				</div>
+			</div>	
+				
+			<div>
+				<div class="imgs">
+				<img src="images/strawberrycake.png" alt="strawberrycake">
+				</div>
+				
+				<div class="doughnutdesc3">
+				<h3>Strawberry Cake</h3>
+				<p>Traditional strawberry cake and a cream cheese filling and glaze.</p>	
+				</div>	
+		</div>	
+		</section>
+		
+		<section class="greybg">
+			<div class="heading">
+			<h2>Cake Doughnuts</h2>
+			<hr class="rule">
+			<p>Near the intersection of a classic birthday cake and a buttery pound cake. Absolutely no eggs. Fresh ingredients in the glaze and the dough and the fillings are house-made!</p>
+			</div>
+			
+			<div class="imgs">
+				<img src="images/passionfruit.png" alt="passionfruit">
+				<img src="images/marconaalmond.png" alt="marconaalmond">
+				<img src="images/coconutcream.png" alt="coconutcream">
+			</div>
+			
+		<div class="doughnutdesc1">
+			<div class="desclockup">
+				<h3>Passion Fruit Doughflower</h3>
+				<p>Sweet and tart. A classic we’ve been making with real passion fruit since 1995.</p>	
+			</div>
+			<div class="desclockup">
+				<h3>Marcona Almond</h3>
+				<p>Made with Marcona almonds and topped with chopped Marcona almonds. Gluten-free.</p>	
+			</div>
+			<div class="desclockup">
+				<h3>Coconut Cream</h3>
+				<p>Filled with fresh coconut milk cream and a fresh coconut glaze.</p>	
+			</div>	
+		</div>	
+		</section>
+		
+		<section class="greybg2">
+			<div class="heading">
+			<h2>Cake Doughnuts</h2>
+			<hr class="rule">
+			<p>Near the intersection of a classic birthday cake and a buttery pound cake. Absolutely no eggs. Fresh ingredients in the glaze and the dough and the fillings are house-made!</p>
+			</div>
+			
+			<div>
+				<div class="imgs">
+				<img src="images/passionfruit.png" alt="passionfruit">
+				</div>	
+				<div class="doughnutdesc3">
+				<h3>Passion Fruit Doughflower</h3>
+				<p>Sweet and tart. A classic we’ve been making with real passion fruit since 1995.</p>	
+				</div>
+			</div>
+			
+			<div>	
+				<div class="imgs">
+				<img src="images/marconaalmond.png" alt="marconaalmond">
+				</div>
+		
+				<div class="doughnutdesc3">
+				<h3>Marcona Almond</h3>
+				<p>Made with Marcona almonds and topped with chopped Marcona almonds. Gluten-free.</p>	
+				</div>
+			</div>
+	
+			<div>
+				<div class="imgs">
+				<img src="images/coconutcream.png" alt="coconutcream">
+				</div>
+				<div class="doughnutdesc3">
+				<h3>Coconut Cream</h3>
+				<p>Filled with fresh coconut milk cream and a fresh coconut glaze.</p>	
+				</div>	
+			</div>	
+				
+		</section>
+	
+	</main>
+	
+	<footer>
+		
+	<section class="bgfooter">
+
+		<div class="logo1">	
+		<img src="images/logo.png" alt="logo">
+		</div>
+			
+		<div class="logo2">	
+		<img src="images/logo2.jpg" alt="logo">
+		</div>
+			
+		<div>
+		<hr class="rule2">
+		</div>
+		
+		<div class="footerinfo">
+			<ul>
+				<li>FAQ's</li>
+				<li>Order Online</li>
+				<li>Gift Cards</li>
+				<li>Try Our App</li>
+			</ul>	
+		</div>
+		
+		<div class="copyright">
+			<p>Copyright &copy; 2019 Doughnut Plant Hotel Chelsea.</p>
+			<p>All rights reserved.</p>
+		</div>
+			
+	</section>
+		
+	</footer>
+	
+</body>
+</html>

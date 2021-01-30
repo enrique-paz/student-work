@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+      margin:0;
+      padding:0;
+      line-height:24px;
+    }
+		 nav{
+			 margin-left:auto;
+			 margin-right:auto;
+			 padding-left: 65px;
+			 padding-right:116px;
+			 padding-top:20px;
+			 position:fixed;
+			 top:0;
+			 right:0;
+			 left:0;
+			 z-index:10;
+			 background-color: white;
+			 width:auto;
+			 height:120px;
+			 opacity:0.95;
+		 }
+		 
+		 nav ul {
+			 display:flex;
+			 justify-content: space-between;
+			 list-style:none;
+			 font-family: 'Comfortaa', sans-serif;
+			 font-size:26px;
+			 padding-top: 16px;
+		 }
+
+		/*nav ul li{
+			min-width: 220px;
+		}*/
+		 
+		 nav ul li img{
+			 margin-top:16px;
+			 height:103px;
+			 width:354px;
+			 position:relative;
+			 top:-46px;
+		 }
+		 
+		 li a{
+			text-decoration:none;
+            color:black;
+		 }
+		 
+		 li a:hover {
+            color:#B4B4B4;
+        } 
+
+
+	/*----------*/
+
+		/*make footer smaller*/
+
+ 		footer{ 
+			background-image:url(images/bgfooter.jpg);
+ 			background-size:cover;
+			padding-left:117px;
+			padding-right:117px;
+  			
+		 }
+		 
+		 footer img{
+			 width:327px;
+			 height:95px;
+			 padding-bottom:10px;
+			 padding-top:80px;
+		 }
+
+
+		.logo2{
+			display:none;
+		}
+		 
+		.navlogo2{
+			display:none;
+		}
+		 .rule2{
+			 border-radius: 10px;
+			 border: solid;
+			 border-color: black;
+			 border-bottom-width: 1px;
+			 width:64px;
+			 margin-bottom:40px;
+			 
+		 }
+		 
+		footer ul {
+			max-width:750px;
+}
+		 footer ul li{
+			list-style:none;
+			/*max-width: 400px;*/
+			width:300px;
+			height:100px;
+			font-family: 'Comfortaa', sans-serif;
+			font-size:26px; 
+			display:inline-block;
+			/*flex-wrap:wrap;*/
+			justify-content:space-between;
+			/*padding-right: 100px;*/
+		 }
+		 
+		 
+		 .copyright{
+			 font-family: 'Comfortaa', sans-serif;
+			 font-size:16px;
+			 text-align:right;
+			 padding-bottom:0px;
+			 position:relative;
+			 top:-95px;
+			 /*MIGHT HAVE TO CHANGE THIS LATER FOR OTHER PAGE SIZES*/
+		 }
+
+		.copyright p{
+			line-height:20px;
+		}
+
+		/*---------*/
+		 
+		 /*how do i make it get small w the screen size*/
+		 .herobanner{
+			margin-left:auto;
+			margin-right:auto;
+			max-width:100%;
+  			background-image:url(images/bgimg_desktop.jpg);
+  			background-size:cover;
+    		background-repeat: no-repeat;
+  			height:886px;
+ 			background-position:center 30px;
+			z-index:0;
+			margin-bottom:0;
+			 /*shrink space btwn hero banner and bgourstory*/
+		 }
+	
+
+		/*????*/
+		 .rule{
+			 border-radius: 10px;
+			 border: solid;
+			 border-color: black;
+			 border-bottom-width: 1px;
+			 width:90px;
+			 margin-right: auto;
+			 margin-left: auto;
+			 margin-top:30px;
+		 }
+		 
+
+ 		h2{
+			 font-family: 'Roboto Condensed', sans-serif;
+			 text-transform: uppercase;
+			 font-size:48px;
+			 text-align:center;
+			 font-weight:900;
+			 padding-top:130px; 
+			 margin-top:130px;
+		 }
+		 
+		h3{
+			font-family: 'Roboto Condensed', sans-serif;
+			 text-transform: uppercase;
+			 font-size:32px;
+			 text-align:center;
+			 font-weight:900; 
+			 /*flex-wrap:nowrap;*/
+			/* flex:none;*/
+			padding-top:0px;
+			padding-bottom:0px;
+			line-height:36px;
+			
+		 }
+
+		 main p{
+			 font-family: 'Comfortaa', sans-serif;
+			 /*font-size: 16px;*/
+			 text-align: center;
+			 padding-top:20px;
+		 }
+
+		.desclockup{
+			 max-width:230px;
+			 /*height:148px;*/
+			 padding-right:30px;
+			 padding-left:30px;
+			 padding-top:35px;
+			 
+			 /*padding-bottom:70px;*/
+		 }
+
+		.desclockup2{
+			 /*max-width:300px;
+			 height:148px;
+			 padding-right:30px;
+			 padding-left:30px;*/
+			padding-left:50px;
+			padding-right:50px;
+			 
+			 /*padding-bottom:70px;*/
+		 }
+ 		
+/*--------------*/
+
+
+
